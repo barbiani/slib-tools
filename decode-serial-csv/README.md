@@ -33,4 +33,4 @@ Linux desktop.
 
 Contributions are appreciated, please use the canonical project URL for issues
 and pull-requests. This tool is released under the GPLv3 license (please see the
-included `LICENSE` file for details).
+included `LICENSE` file for details). Contributions do not require a CLA.
