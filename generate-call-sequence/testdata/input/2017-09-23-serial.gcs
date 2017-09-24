@@ -1,0 +1,6 @@
+execute: E, e
+write: W, w
+complete: B, b, ISR1
+callback: F, f
+powerdown: C, c
+sync: D

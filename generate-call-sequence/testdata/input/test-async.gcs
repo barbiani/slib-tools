@@ -1,0 +1,9 @@
+# Simple spec for a nested context test
+# Note that this uses unsigned integers as codes, although the spec also
+# supports ASCII (a-zA-Z) and hexes.
+
+hello:   0, 100
+putchar: 1, 101
+async1:  50, 150, ISR1
+async2:  51, 151, ISR2
+emit:    500
