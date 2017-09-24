@@ -14,13 +14,12 @@ The tool is useful to convert serial link data into serial event trace format
 which can be decoded by `generate-call-sequence` (a separate tool located in the
 same repository where this one lives). The tool runs as an "UNIX-like" filter
 program and can feed data directly to `generate-call-sequence` if required. With
-little work, the tool can also decode MOSI-based SPI transfers (please see XXX
-for details).
+little work, the tool can also decode MOSI-based SPI transfers (please see [this article](https://lowerstrata.net/post/serial-tracing/) for details).
 
 Canonical URL for project:
 https://github.com/majava3000/slib-tools/tree/master/decode-serial-csv
 
-# Limitations
+# Limitations & future work
 
 Should be fixed first:
 
@@ -50,7 +49,8 @@ Development ideas:
 
 # Use cases and examples
 
-For now, please see the XXXX for an article covering the use of this tool.
+For now, please see [this article](https://lowerstrata.net/post/serial-tracing/)
+covering the use of this tool.
 `testdata/` contains some example files that can be used for testing and
 verification.
 

@@ -8,7 +8,7 @@ trace event viewer (about:tracing).
 Canonical URL for project:
 https://github.com/majava3000/slib-tools/tree/master/generate-call-sequence
 
-# Limitations
+# Limitations & future work
 
 The trace format does not directly support blocking/asynchronous contexts, since
 it's more geared towards viewing trace data in modern multi-threaded /
@@ -62,7 +62,7 @@ Development ideas:
 
 Currently input data formats (for the CSV and event specification) are not
 documented directly, but hopefully the files under `testdata/` might be of use
-as well as the article covering the use cases of this tool in XXX.
+as well as the article covering the use cases of this tool in [this article](https://lowerstrata.net/post/serial-tracing/).
 
 Pro-tip: to pretty-print the generated JSON, use `python -m tool.json < events.json`
 
